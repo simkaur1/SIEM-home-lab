@@ -1,4 +1,4 @@
-<img width="1582" height="971" alt="Screenshot 2026-06-03 at 11 25 46" src="https://github.com/user-attachments/assets/552882bc-9619-4aa0-b2ac-8c015ed7f02f" /># SIEM-home-lab
+# SIEM-home-lab
 This is my local SOC monitoring environment that uses Wazuh SIEM to ingest telemetry across native ARM64 Ubuntu Linux and emulated x86 Windows 11 virtual machines focusing on core skills needed for a Blue Team cybersecurity role.
 
 ## Table of Contents

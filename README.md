@@ -100,15 +100,7 @@ Despite installing native ARM64 Windows 11 ISO image, this VM has to be run unde
    but issues persisted with agent disconnecting.
 6. Wazuh has a config text file that needed to be edited with `notepad "C:\Program Files (x86)\ossec-agent\ossec.conf"` to change IP address from `0.0.0.0` to the the IP found on the macOS host machine.
 <img width="452" height="366" alt="image" src="https://github.com/user-attachments/assets/5e0ab99f-e54f-40c0-b7b9-ac98afd30351" />
-
-```
-  <server>
-     <address>YOUR_IP</address>
-     <port>1514</port>
-     <protocol>tcp</protocol>
-   </server>
-```
-
+<img width="757" height="518" alt="image" src="https://github.com/user-attachments/assets/d6911b7c-ed78-4594-8702-ed40d4c3cfd2" />
 6. To reduce processing delays, custom timing variables were injected in the client section.
    ```
    <notify_time>10</notify_time>
@@ -122,3 +114,5 @@ Despite installing native ARM64 Windows 11 ISO image, this VM has to be run unde
 ## Conclusion & Key Takeaways
 
 This project demonstrated the deployment and optimisation complexities of engineering a cross-platform SIEM environment. Developing this lab provided critical insights into system configuration, service daemons, and network alignment when integrating  operating systems across native ARM64 and emulated x86 architectures. Resolving the communication latency and routing anomalies established a robust, extensible foundation for real-time security analytics and centralised log management.Future engineering iterations will utilise this  as a testbed for active threat emulation and detection engineering, mapped directly to the **MITRE ATT&CK** framework. Controlled security incidents including automated SSH brute-force authentication (T1110), network service discovery sweeps via `nmap` (T1046), and administrative agent service disabling (T1562.001)—will be executed against the endpoints to validate and calibrate alerting mechanics.
+<img width="2048" height="1257" alt="image" src="https://github.com/user-attachments/assets/a988e648-d1be-47b0-b941-91a853b60e5c" />
+

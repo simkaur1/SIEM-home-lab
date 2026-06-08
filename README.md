@@ -1,4 +1,4 @@
-<img width="912" height="752" alt="Screenshot 2026-06-08 at 11 02 45" src="https://github.com/user-attachments/assets/9ae02cf2-15c3-4756-9a58-af22304e5171" /># SIEM-home-lab
+# SIEM-home-lab
 This is my local SOC monitoring environment that uses Wazuh SIEM to ingest telemetry across native ARM64 Ubuntu Linux and emulated x86 Windows 11 virtual machines focusing on core skills needed for a Blue Team cybersecurity role.
 
 ## Table of Contents
@@ -34,7 +34,7 @@ When creating the virtual home lab, I followed and adapted from this tutorial [h
   8. Create the Windows user with a password and add the security questions then wait for everything to load
   9. Once loaded, navigate to `CD: Drive (E:) UTM Guest Tools` to locate the UTM Guest Tools Installer to allow more file shaing and clipboard usage etc.
   10. Finally, eject the UTM Guest Tools once installed and log in with the password created
-
+  <img width="1136" height="920" alt="Screenshot 2026-06-08 at 11 05 58" src="https://github.com/user-attachments/assets/20904fcb-1d85-4666-96cc-3cae3a4e2cb4" />
 - Downloaded the ARM64 Ubuntu Linux ISO [here](https://ubuntu.com/download/server/arm)
   1. Repeat steps i - iii for the Ubuntu Linux VM installation
   2. Select the language you would like to use and continue without updating the installer

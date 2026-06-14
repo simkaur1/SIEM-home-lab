@@ -98,9 +98,10 @@ Despite installing native ARM64 Windows 11 ISO image, this VM has to be run unde
    Get-Service WazuhSvc
    ```
    but issues persisted with agent disconnecting.
-6. Wazuh has a config text file that needed to be edited with `notepad "C:\Program Files (x86)\ossec-agent\ossec.conf"` to change IP address from `0.0.0.0` to the the IP found on the macOS host machine.
+5. Wazuh has a config text file that needed to be edited with `notepad "C:\Program Files (x86)\ossec-agent\ossec.conf"` to change IP address from `0.0.0.0` to the the IP found on the macOS host machine.
 <img width="452" height="366" alt="image" src="https://github.com/user-attachments/assets/5e0ab99f-e54f-40c0-b7b9-ac98afd30351" />
 <img width="757" height="518" alt="image" src="https://github.com/user-attachments/assets/d6911b7c-ed78-4594-8702-ed40d4c3cfd2" />
+
 6. To reduce processing delays, custom timing variables were injected in the client section.
    ```
    <notify_time>10</notify_time>
